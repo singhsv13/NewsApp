@@ -16,7 +16,6 @@ The News App is a web application that provides users with the latest news artic
 
 - **Detailed News Cards:** News articles are displayed in attractive cards, showing the article title, author, and a link to access the full news story. The card text color adapts to the selected mode for readability.
 
-- **Category Button Highlight:** When a category filter is selected, the corresponding button is highlighted to indicate the active filter.
 
 ## Technologies Used
 
