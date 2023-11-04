@@ -1,66 +1,79 @@
-'''News App'''
+# News App
 
-'''Overview'''
+## Overview
+
 The News App is a web application that provides users with the latest news articles. It allows users to filter news articles by category, switch between Dark and Light Modes for comfortable reading, and provides pagination to browse through multiple articles. This app is built using React and integrates with the News API to fetch real-time news data.
 
-News App Screenshot
+![News App Screenshot](app-screenshot.png)
 
-Features
-News Categories: Users can filter news articles by category, including All, Entertainment, Sports, Technology, and Health.
+## Features
 
-Pagination: The app offers easy navigation with "Previous" and "Next" buttons to view more news articles.
+- **News Categories:** Users can filter news articles by category, including All, Entertainment, Sports, Technology, and Health.
 
-Dark and Light Mode: Users can switch between different color themes for the user interface to optimize their reading experience.
+- **Pagination:** The app offers easy navigation with "Previous" and "Next" buttons to view more news articles.
 
-Detailed News Cards: News articles are displayed in attractive cards, showing the article title, author, and a link to access the full news story. The card text color adapts to the selected mode for readability.
+- **Dark and Light Mode:** Users can switch between different color themes for the user interface to optimize their reading experience.
 
-Category Button Highlight: When a category filter is selected, the corresponding button is highlighted to indicate the active filter.
+- **Detailed News Cards:** News articles are displayed in attractive cards, showing the article title, author, and a link to access the full news story. The card text color adapts to the selected mode for readability.
 
-Technologies Used
-React: A popular JavaScript library for building user interfaces.
+- **Category Button Highlight:** When a category filter is selected, the corresponding button is highlighted to indicate the active filter.
 
-News API: The app integrates with the News API to fetch real-time news data.
+## Technologies Used
 
-HTML and CSS: Standard web technologies for structuring and styling the app.
+- React: A popular JavaScript library for building user interfaces.
 
-How to Get Started
+- News API: The app integrates with the News API to fetch real-time news data.
+
+- HTML and CSS: Standard web technologies for structuring and styling the app.
+
+## How to Get Started
+
 Follow these steps to set up and run the News App locally:
 
-Clone the Repository:
+1. **Clone the Repository:**
 
-bash
-Copy code
-git clone https://github.com/your-username/news-app.git
-cd news-app
-Install Dependencies:
+    ```bash
+    git clone https://github.com/your-username/news-app.git
+    cd news-app
+    ```
 
-bash
-Copy code
-npm install
-Obtain an API Key:
+2. **Install Dependencies:**
 
-To fetch news data, you'll need an API key from News API. Sign up and obtain your API key.
+    ```bash
+    npm install
+    ```
 
-Set Your API Key:
+3. **Obtain an API Key:**
 
-Create a .env file in the root directory of the project and add your API key as follows:
+    To fetch news data, you'll need an API key from [News API](https://newsapi.org/). Sign up and obtain your API key.
 
-env
-Copy code
-REACT_APP_NEWS_API_KEY=your-api-key
-Run the App:
+4. **Set Your API Key:**
 
-bash
-Copy code
-npm start
-This will start the development server and open the app in your default web browser. You can access the app at http://localhost:3000.
+    Create a `.env` file in the root directory of the project and add your API key as follows:
 
-Usage
-Select a news category to filter articles.
-Navigate through articles using the "Previous" and "Next" buttons.
-Toggle between Dark and Light Modes for a preferred viewing experience.
-Credits
-React
-News API
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+    ```env
+    REACT_APP_NEWS_API_KEY=your-api-key
+    ```
+
+5. **Run the App:**
+
+    ```bash
+    npm start
+    ```
+
+    This will start the development server and open the app in your default web browser. You can access the app at [http://localhost:3000](http://localhost:3000).
+
+## Usage
+
+- Select a news category to filter articles.
+- Navigate through articles using the "Previous" and "Next" buttons.
+- Toggle between Dark and Light Modes for a preferred viewing experience.
+
+## Credits
+
+- [React](https://reactjs.org/)
+- [News API](https://newsapi.org/)
+
+## License
+
+Free to Use
