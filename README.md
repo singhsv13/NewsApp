@@ -61,7 +61,7 @@ Follow these steps to set up and run the News App locally:
     npm start
     ```
 
-    This will start the development server and open the app in your default web browser. You can access the app at [http://localhost:3000](http://localhost:3000).
+    This will start the development server and open the app in your default web browser. You can access the app at [http://localhost:3000](http://localhost:5173).
 
 ## Usage
 
